@@ -19,6 +19,37 @@ This project aims to analyze and visualize the ingredients used in recipes from 
 - `top_ingredients_map.html`: HTML file for top ingredients map.
 - `.vscode/settings.json`: VS Code settings file.
 
+## Notebooks
+
+### main_tf_idf.ipynb
+
+This notebook focuses on analyzing recipe ingredients using the TF-IDF (Term Frequency-Inverse Document Frequency) method to identify the most specific ingredients associated with each country. The steps involved are:
+
+1. **Import Libraries**: The necessary libraries such as `pandas`, `numpy`, and `os` are imported to handle data manipulation and file operations.
+
+2. **Load Data**: The recipe data is loaded from a CSV file named `recipes.csv`.
+
+3. **Preprocess Data**: Unnecessary columns are removed from the dataset, and the data is cleaned to ensure consistency.
+
+4. **Clean Text**: A function is defined to clean and convert list or set columns to strings, making the data easier to work with.
+
+5. **Apply Cleaning Function**: The cleaning function is applied to relevant columns in the dataset.
+
+6. **Extract Country Tags**: The `demonyms.csv` file is loaded and cleaned to create a dictionary that maps country names and adjectives. This helps in identifying country mentions in the text.
+
+7. **Detect Country Mentions**: A function is defined and applied to detect mentions of countries in the text fields of the dataset.
+
+8. **Clean Ingredients Column**: The ingredients column is normalized by lemmatizing the ingredients and removing duplicates to ensure uniformity.
+
+9. **Expand Data**: The dataset is expanded by splitting country tags and ingredients into multiple rows, facilitating detailed analysis.
+
+10. **Count Ingredient Occurrences**: The occurrences of each ingredient per country are counted to understand the distribution of ingredients.
+
+11. **TF-IDF Analysis**: The TF-IDF scores for ingredients are computed to identify the most specific ingredients for each country.
+
+12. **Extract Specific Ingredients**: The most specific ingredients for each country are extracted based on their TF-IDF scores.
+
+13. **Map Ingredients**: The specific ingredients are mapped to countries on a world map using the `folium` library, providing a visual representation of the data.
 
 
 ## Data
