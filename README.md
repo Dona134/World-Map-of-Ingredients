@@ -19,23 +19,7 @@ This project aims to analyze and visualize the ingredients used in recipes from 
 - `top_ingredients_map.html`: HTML file for top ingredients map.
 - `.vscode/settings.json`: VS Code settings file.
 
-## Notebooks
 
-### main_tf_idf.ipynb
-
-This notebook performs the following tasks:
-
-1. **Data Cleaning**: Normalizes the ingredients in the dataset.
-    ```python
-    clean_df["ingredients"] = clean_df["ingredients"].apply(normalize_ingredient)
-    clean_df.head(10)
-    ```
-
-2. **TF-IDF Analysis**: Computes the TF-IDF scores for ingredients in the recipes.
-
-### main_top15.ipynb
-
-This notebook analyzes the top 15 ingredients used in recipes from different countries.
 
 ## Data
 
