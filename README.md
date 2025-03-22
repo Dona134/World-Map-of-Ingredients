@@ -69,6 +69,4 @@ This notebook analyzes the top 15 ingredients used in recipes from different cou
 2. Open `main_top15.ipynb` to analyze the top 15 ingredients used in recipes from different countries.
 3. View the generated maps (`specific_ingredients_map_upd.html` and `top_ingredients_map.html`) for visual insights.
 
-## License
 
-This project is licensed under the MIT License.
