@@ -28,8 +28,8 @@ This project aims to analyze and visualize the ingredients used in recipes from 
 
 ## Visualizations
 
-- `specific_ingredients_map_upd.html`: An interactive map showing specific ingredients used in different countries.
-- `top_ingredients_map.html`: An interactive map showing the top ingredients used in different countries.
+- [`specific_ingredients_map_upd.html`](https://dona134.github.io/World-Map-of-Ingredients/specific_ingredients_map_upd.html): An interactive map showing specific ingredients used in different countries.
+- [`top_ingredients_map.html`](https://dona134.github.io/World-Map-of-Ingredients/top_ingredients_map.html): An interactive map showing the top ingredients used in different countries.
 
 ## Setup
 
